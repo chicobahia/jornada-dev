@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aula 20, 21, 22, 23 e 24</title>
+    <title>Aula 20, 21, 22, 23, 24, 25 e 25b</title>
+    <style>
+        .botao {
+            width: 100px;
+        }
+    </style>
 </head>
 <body>
     <h1>Formulário</h1>
@@ -11,17 +16,17 @@
        
         <p>
             <label for="input-end">Endereço</label>
-            <input id="input-end" type="text" name="rua" placeholder="Nome da rua">
+            <input id="input-end" type="text" name="rua" placeholder="Nome da rua" required>
         </p>
 
         <p>
             <label for="input-num">Número</label>
-            <input id="input-num" type="number" name="numero" min="0" placeholder="Número da rua">
+            <input id="input-num" type="number" name="numero" min="0" placeholder="Número da rua" disabled>
         </p>
 
         <p>
             <label for="input-email">E-mail</label>
-            <input id="input-email" type="email" name="mail" placeholder="Seu e-mail">
+            <input id="input-email" type="email" name="mail" placeholder="Seu e-mail" value="meuemailteste.com" readonly>
         </p>
 
         <p>
@@ -87,10 +92,39 @@
     
         </p>
 
+        <p>
+            <label for="cor">
+            <input id="cor" type="color" name="cor">Cor</label>
+        </p>
+
+        <p>
+            <label for="input-arquivo"></label>
+            <input id="input-arquivo" type="file" name="arquivo" accept=".mp3, .docx" multiple>
+        </p>
+
+        <p>
+            <label for="range">Range
+            <input id="range" type="range" name="range" min="0" max="10" step="2"></label>
+        </p>
+
+        <p>
+            <input type="hidden" name="protocolo" value="000123">
+        </p>
+        <!-- <input type="reset" value="Limpar">
+            
+                    SEM SEMÂNTICA
+            
+            -->
+
+            <input class="botao" type="image" src="imagens/botao.png">
+
+
+
 
 
 
         <p><button type="submit">Enviar</button></p>
+        <p><button type="reset">Limpar</button></p>
     </form>
 
 <br>
