@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+html {
+    background-color: aqua;
+}
+
+.box1 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.box2 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(98, 0, 255);
+}
+
+.box2-a {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.box2-aa {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+
+.b1 {
+    background-color: rgba(128, 0, 128, 0.595);
+    display: block;
+    margin: auto;
+}
