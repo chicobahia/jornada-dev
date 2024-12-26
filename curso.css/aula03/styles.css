@@ -1,12 +1,20 @@
 @charset "UTF-8";
 
-h1 {
-    color: blueviolet;
+html {
+    background-color: #8888dd91;
 }
+/* Hexadecimal (16) - 0 1 2 3 4 5 6 7 8 9 A B C D E F */
+
+h1 {
+    color: rgba(100, 50, 30, 0.6);
+}
+/* RGB - 0 a 255 */
 
 p {
     display: inline;
+    color: hsla(244, 85%, 38%, 0.9);
 }
+/* HSL - cor, saturação, luminosidade */
 
 div.teste {
     display: inline;
