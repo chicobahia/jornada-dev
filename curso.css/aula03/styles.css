@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+h1 {
+    color: blueviolet;
+}
+
+p {
+    display: inline;
+}
+
+div.teste {
+    display: inline;
+}
+
+span.teste {
+    display: block;
+}
+/* Isso foi um teste. */
+
+div.d1 {
+    max-width: 500px;
+}
+
+.s1 {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+
+p.pa {
+    display: block;
+}
