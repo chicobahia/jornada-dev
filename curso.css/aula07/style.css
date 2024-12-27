@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+html {
+    background-color: #333333;
+}
+
+.box {
+    background-color: #999999;
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+}
+
+.box2 {
+    display: none;
+    background-color: #cccccc;
+    width: 300px;
+    height: 300px;
+    visibility: visible;
+}
