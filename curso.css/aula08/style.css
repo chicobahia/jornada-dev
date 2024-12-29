@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+html {
+    background-color: #919191;
+}
+
+
+div.box {
+    font-family: Poppins, san-serif;
+    background-color: #999999;
+    padding: 20px;
+    text-align: justify;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: Poppins, san-serif;
+    font-size: 25px;
+}
+
+a.link {
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 45%;
+}
+
+.p1 {font-weight: 100; text-decoration: underline; text-transform: capitalize;}
+.p2 {font-weight: 200; text-decoration: overline wavy; text-transform: uppercase;}
+.p3 {font-weight: 300; text-decoration: line-through; text-transform: lowercase;}
+.p4 {font-weight: 400;}
+.p5 {font-weight: 500;}
+.p6 {font-weight: 600;}
+.p7 {font-weight: 700;}
+.p8 {font-weight: 800; text-decoration: underline dotted;}
+.p9 {font-weight: 900; text-decoration: underline dashed;}
+ 
