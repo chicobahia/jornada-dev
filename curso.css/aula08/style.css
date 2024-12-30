@@ -26,6 +26,8 @@ a.link {
     text-decoration: none;
     text-transform: uppercase;
     margin-left: 45%;
+    position: sticky;
+    top: 0;
 }
 
 .p1 {font-weight: 100; text-decoration: underline; text-transform: capitalize;}

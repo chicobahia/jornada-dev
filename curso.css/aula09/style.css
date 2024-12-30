@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.box {
+    padding: 20px;
+    margin-bottom: 15px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.box-1 {
+    width: 33.3%;
+    background-color: red;
+    float: left;
+}
+
+.box-2 {
+    width: 33.3%;
+    background-color: blue;
+    float: left;
+}
+
+.box-3 {
+    width: 33.3%;
+    background-color: green;
+    float: left;
+}
+
+.box-4 {
+    background-color: rgb(190, 190, 17);
+    width: 33.3%;
+    position: absolute;
+    top: 50%;
+    left: 33.3%;
+}
