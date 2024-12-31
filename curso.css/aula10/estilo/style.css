@@ -4,6 +4,22 @@ body {
     background-color: rgba(85, 83, 83, 0.507);
 }
 
+div>a{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size: 36px;
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 5px 40px;
+    border-radius: 50px;
+    color: rgb(176, 169, 160);
+}
+
+a:hover {
+    background-color: blue;
+}
+
 
 .box {
     box-sizing: border-box;
