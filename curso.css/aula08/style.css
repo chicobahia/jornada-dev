@@ -14,6 +14,8 @@ div.box {
     line-height: normal;
     letter-spacing: normal;
     margin-bottom: 30px;
+    resize: both;
+    overflow: auto;
 }
 
 p {
@@ -40,3 +42,18 @@ a.link {
 .p8 {font-weight: 800; text-decoration: underline dotted;}
 .p9 {font-weight: 900; text-decoration: underline dashed;}
  
+::-webkit-scrollbar {
+    background-color: lightgray;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar-button {
+    background-color: darkgray;
+}
+
+::-webkit-scrollbar-button:hover {
+    background-color: brown;
+}

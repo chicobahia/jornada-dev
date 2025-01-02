@@ -2,6 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <style>
+        textarea {
+            resize: none;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column; /* Organiza os elementos verticalmente */
+            align-items: flex-start; /* Alinha o texto à esquerda */
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
@@ -16,7 +27,12 @@
                                 -->
 
 <form action="../aula20/formulario-enviado.html" method="get">
-    <label for="mensagem">Mensagem<textarea name="mensagem" id="mensagem" rows="8" maxlength="50"></textarea></label>
+    
+    <div class="form-group">
+        <label for="mensagem"></label>
+            <textarea name="mensagem" id="mensagem" rows="8" maxlength="50"></textarea>
+        
+    </div>
     
     <p>
         <label for="opcoes">Opções</label>

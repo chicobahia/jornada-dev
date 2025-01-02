@@ -4,32 +4,69 @@
     <meta charset="UTF-8">
     <title>Aula 19</title>
     <style>
+        
+        body {
+            background-color: #999;
+        }
+
+
         table {
-            border: 1px solid black;
             width: 500px;
             height: 30px;
             border-collapse: collapse;
+            cursor: default;
+        }
+
+        caption {
+            padding-bottom: 20px;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        thead {
+            background-color: rgba(0, 255, 255, 0.355);
+        }
+
+        tbody tr:hover {
+            background-color: rgb(55, 23, 86);
+            color: whitesmoke;
+        }
+
+        .cars {
+            width: 100%;
         }
 
         th {
             padding: 5px;
-            border: 1px solid black;
             
         }
 
         td {
             text-align: start;
-            border: 1px solid black;
             width: 500px;
             height: 30px;
             padding-left: 5px;
         }
+
+        .even {
+            background-color: beige;
+        }
+
+        tfoot td {
+            border-top: 1px solid  black;
+            border-bottom: 3px solid  black;
+        }
+
+        .total {
+            text-align: end;
+            padding-right: 10px;
+            font-weight: bolder;
+        }
     </style>
 </head>
 <body>
-    <h1>Tabela</h1>
-
-    <table>
+    <table class="cars">
+        <caption>Carros</caption>
         <thead>
             <tr>
                 <th>Marca</th>
@@ -43,7 +80,7 @@
                 <td>Fiesta</td>
                 <td>2015</td>
             </tr>
-            <tr>
+            <tr class="even">
                 <td>Chevrolet</td>
                 <td>Prisma</td>
                 <td>2020</td>
@@ -53,12 +90,23 @@
                 <td>Uno</td>
                 <td>2019</td>
             </tr>
-            <tr>
+            <tr class="even">
                 <td>Citroen</td>
                 <td>C3</td>
                 <td>2019</td>
             </tr>
+            <tr>
+                <td>Mercedes</td>
+                <td>SLK</td>
+                <td>2020</td>
+            </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" class="total">TOTAL</td>
+                <td>5</td>
+            </tr>
+        </tfoot>
     </table>
     
 
